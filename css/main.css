@@ -1,0 +1,13 @@
+
+
+/*
+Resets
+ */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: auto;
+    background-color:#d2d6de;
+}

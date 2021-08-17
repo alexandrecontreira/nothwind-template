@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    height: auto;
+    width: auto;
+    background-color:#d2d6de;
+}
+p{
+    text-align: center;
+}
+.body-input{
+    width: 50%;
+    height: auto;
+    margin: 5% auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid green;
+
+}
+.body-input .form-input{
+    margin: 5px auto;
+}
+.layout{
+    width: 50%;
+    height: 50%;
+}
+.checkbox:hover {
+    border-color: blue;
+    border-radius: 0;
+}

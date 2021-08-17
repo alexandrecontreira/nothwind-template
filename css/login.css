@@ -1,0 +1,142 @@
+.msg-error {
+    background-color: white;
+    padding: 15px;
+    margin: 1% auto;
+    width: 360px;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+}
+p{
+    text-align: center;
+
+}
+
+.logo{
+    text-align: center;
+    font-size: 35px;
+    color: #444;
+}
+.login-box-msg{
+    width: 360px;
+    margin: 7% auto;
+    border-top:0;
+    padding: 20px;
+}
+
+
+.login-box-msg {
+    width: auto;
+}
+
+/*fundo register box*/
+.register-box{
+    background-color: white;
+    padding: 20px;
+    margin: 1% auto;
+    width: 360px;
+    height: auto;
+}
+/*campos*/
+.register-box{
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    color: #444;
+}
+.input {
+    border-radius: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+    width: 95%;
+    margin: 10px;
+    display: block;
+}
+.input:hover{
+    border-color: #ff4040;
+    border-radius: 0;
+}
+.input-group{
+
+}
+.input-group-addon{
+    text-align: center;
+    float: right;
+    margin: 5px 5px auto;
+
+}
+
+/* formatação do elemento */
+
+.btn{
+    border: 1px solid transparent;
+    margin: 0;
+
+}
+.btn-bx {
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    color: white;
+    padding: 6px 15px;
+    font-size: 14px;
+    border-width: 1px;
+    border-radius: 0;
+    border-shadow: none;
+    float: right;
+    margin-right: 10px;
+}
+.btn-bx:hover {
+    background-color:#ff4040;
+}
+.checkbox{
+    margin-left: 10px;
+    float: left;
+}
+
+.teste{
+    min-height: 1px;
+    clear: both;
+    position: relative;
+}
+.btn-block{
+    display: block;
+    width: auto;
+}
+/*btn-sub{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}*/
+.btn-box{
+    border-width: 1px;
+    border-radius: 0;
+    border-shadow: none;
+    padding: 10px;
+    margin: 15px;
+    display:block;
+}
+.btn-social{
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    font-weight: 400;
+}
+.btn-facebook{
+    background-color: #3c8dbc;
+    color: white;
+    border-color: rgba(0,0,0,0.2);
+}
+
+.btn-Google{
+    background-color:#ff4040 ;
+    color: white;
+    border-color: rgba(0,0,0,0.2);
+}
+.text{
+    text-align: left;
+    color: #3c8dbc;
+}

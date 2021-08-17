@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> tela de login </title>
+
+    <meta charset="utf-8">
+
+    <meta name="author" content="Alexandre Contreira">
+
+    <meta name="viewport" content="width=device-width initial-scale= 1.0">
+
+    <link rel="stylesheet" href="css/fontawesome/fontawesome-all.min.css"> <!--load all styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+</head>
+<body>
+<div class="login-box-msg">
+
+    <div class="logo">
+        <a><strong>Admin</strong>LTE</a>
+        <div class="msg-erro">
+
+        </div>
+    </div>
+
+    <div class="register-box">
+        <p>Sign in to start your session</p>
+        <div>
+            <form  id="login-form" action="" method="post">
+
+                <label for="email"></label>
+                <input type="text" class="input" id="email" name="email" placeholder="Email" >
+                <span class="msg-erro msg-email"></span>
+
+                <div class="input-group">
+                    <label for="password"></label>
+                    <input type="password" class="input" id="password" name="password" placeholder="Password" ><br><br>
+                    <span class="input-group-addon"> <i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                    <span class="msg-erro msg-senha"></span>
+                </div>
+
+                <div class="teste">
+                    <label for="remember"></label>
+                    <input type="checkbox" class="checkbox" id="remember" name="remember"/>Remember Me
+                    <button type="submit" class=" btn btn-bx "> Sig in</button>
+                    <br clear="all">
+                </div>
+            </form>
+            <p>- OR -</p>
+            <div>
+                <a href="#" class="btn btn-box btn-social btn-block btn-facebook">
+                    <i class="fab fa-facebook-f">
+
+                    </i>
+                    Sign in with Facebook
+                </a>
+                <a href="#" class=" btn btn-box btn-social btn-block btn-Google">
+                    <i class="fab fa-google-plus-g"></i>
+                    Sign in using Google+
+                </a>
+            </div>
+            <a class="text" href="#">I forgot my password</a>
+            <br>
+            <a class="text" href="#">Register a new membership</a>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="js/login.js"> </script>
+</html>
+

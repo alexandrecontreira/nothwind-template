@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <title> tela de registro </title>
+
+    <meta charset="utf-8">
+
+    <meta name="author" content="Alexandre Contreira">
+
+    <meta name="viewport" content="width=device-width initial-scale= 1.0">
+
+    <link rel="stylesheet" href="css/fontawesome/fontawesome-all.min.css"> <!--load all styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+</head>
+<body>
+<div class="login-box-msg">
+
+    <div class="logo">
+        <a><strong>Admin</strong>LTE</a>
+    </div>
+
+    <div class="register-box">
+        <p>Register a new membership</p>
+        <div>
+            <form action="">
+
+                <label for="fullname"></label>
+                <input type="text" class="input" id="fullname" name="fullname" placeholder="Full name" required>
+
+                <label for="email"></label>
+                <input type="text" class="input" id="email" name="email" placeholder="Email" required>
+
+                <label for="password"></label>
+                <input type="password" class="input" id="password" name="password" placeholder="Password" required>
+
+                <label for="retypepassword"></label>
+                <input type="password" class="input" id="retypepassword" name="retypepassword" placeholder="Retype Password" required><br><br>
+
+                <div class="teste">
+                    <label for="agreeterms"></label>
+                    <input type="checkbox" class="checkbox" id="agreeterms" name="agreeterms"/> I agree to the <a class="text" href="#">terms</a>
+                    <button type="submit" class=" btn btn-bx "> Register</button>
+                    <br clear="all">
+                </div>
+            </form>
+            <p>- OR -</p>
+            <div>
+                <a href="#" class="btn btn-box btn-social btn-block btn-facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    Sign in with Facebook
+                </a>
+                <a href="#" class=" btn btn-box btn-social btn-block btn-Google">
+                    <i class="fab fa-google-plus-g"></i>
+                    Sign in using Google+
+                </a>
+            </div>
+            <a class="text" href="#">I already have a membership</a>
+
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+</html>
